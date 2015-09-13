@@ -1,0 +1,7 @@
+  background(255);
+  size(500, 500);
+int x = 20;
+while (x < 480) {
+  line(x, 250, (0 + x), (480 + x));
+  x=(x+2);
+}
