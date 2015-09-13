@@ -1,0 +1,12 @@
+//Diagonal Circles
+
+background(200);
+size(500, 500);
+
+
+int x = 5;
+while (x < 470) {
+  float ellipseSize = (25);
+  ellipse((x = x + 20), (x = x + 2), ellipseSize, ellipseSize);
+  ;
+}
